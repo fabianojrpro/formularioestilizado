@@ -1,0 +1,53 @@
+<doctype html>
+	<html lang="pt-br"> <!-- começo do code-->
+		<head> <!-- começo do head-->
+			<title>Formulário estilizado</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="estilo.css">
+		</head> <!-- fim do head-->
+	<body> <!-- começo do body-->
+		<h2>Estilizando Formulário</h2>
+			<form> <!-- começo da form-->
+				<fieldset> <!-- começo do form para contato-->
+					<legend>Contato</legend>
+						<div>
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" id="nome">
+						</div>
+
+						<div>
+							<label for="email">E-mail:</label>
+							<input type="text" name="email" id="email">
+						</div>
+
+						<div>
+							<label for="telefone">Telefone:</label>
+							<input type="text" name="telefone" id="telefone">
+						</div>
+				</fieldset> <!-- fim do form para contato-->
+
+				<fieldset> <!-- começo do form para descrição-->
+					<legend>Biografia</legend>
+					<label>Mensagem:</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
+				</fieldset> <!-- começo do form para descrição-->
+
+				<form> <!-- começo do form lembrar de mim-->
+					<fieldset>
+					<legend>Podemos te ligar?</legend>
+					<div>
+						<label>
+							<input class="radio" type="radio" name="lembrar" id="sim">Sim
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input class="radio" type="radio" name="lembrar" id="nao">Não
+						</label>
+					</div>
+					</fieldset>
+				</form>
+			</form> <!-- fim da form-->
+	</body> <!-- começo do body-->
+	</html>
